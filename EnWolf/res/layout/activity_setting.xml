@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imuxuan="http://schemas.android.com/apk/res/com.imuxuan.enwolf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="#fff24d51" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置中心"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+<FrameLayout
+        android:id="@+id/banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" />
+    <com.imuxuan.enwolf.ui.SettingItemView
+        android:id="@+id/siv_callsms_safe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        imuxuan:desc_off="黑名单拦截已经关闭"
+        imuxuan:desc_on="黑名单拦截已经开启"
+        imuxuan:title="黑名单拦截设置" >
+    </com.imuxuan.enwolf.ui.SettingItemView>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="#fff24d51" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="EnWolf"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/anti0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout1" >
+
+        <ImageView
+            android:id="@+id/wolfim"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="#adaaaa"
+            android:src="@drawable/wolfbackg" />
+
+        <LinearLayout
+            android:id="@+id/anti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wolfim"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageview_bbt_konwledage1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/bbt_bottom_01" />
+
+            <ImageView
+                android:id="@+id/imageview_bbt_konwledage2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/bbt_bottom_2" />
+
+            <ImageView
+                android:id="@+id/imageview_bbt_konwledage3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/bbt_bottom_3" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/anti"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/anti1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/gray"
+            android:clickable="false" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="一键杀毒" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <View
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <SlidingDrawer
+            android:id="@+id/my_drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:content="@+id/my_content"
+            android:handle="@+id/my_handle"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@id/my_handle"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/wolfback"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/bbt_zoom_left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/my_content"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:background="#22000000"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="51dp"
+                    android:layout_alignParentTop="true"
+                    android:background="#fff24d51" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="窝"
+                        android:textColor="#fff"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="#fff" />
+
+                <GridView
+                    android:id="@+id/list_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:numColumns="1"
+                    android:verticalSpacing="30dip" >
+                </GridView>
+            </LinearLayout>
+        </SlidingDrawer>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rela1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#646464" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="|  设置  |"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

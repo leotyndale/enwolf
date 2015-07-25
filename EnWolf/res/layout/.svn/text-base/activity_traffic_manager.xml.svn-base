@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <SlidingDrawer
+        android:id="@+id/my_drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:content="@+id/my_content"
+        android:handle="@+id/my_handle"
+        android:orientation="horizontal" >
+
+        <!-- 把手的布局 -->
+        <LinearLayout
+             android:id="@id/my_handle"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lock" />
+            <!-- 内容的布局 -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/my_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#22000000"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是抽屉里面的内容，哈哈哈哈" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</LinearLayout>

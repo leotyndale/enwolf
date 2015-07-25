@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MobileSafe/!svn/ver/59/src/com/itheima/mobilesafe/service
+END
+WatchDogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MobileSafe/!svn/ver/59/src/com/itheima/mobilesafe/service/WatchDogService.java
+END
+AddressService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MobileSafe/!svn/ver/42/src/com/itheima/mobilesafe/service/AddressService.java
+END
+UpdateWidgetService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MobileSafe/!svn/ver/58/src/com/itheima/mobilesafe/service/UpdateWidgetService.java
+END
+GPSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/MobileSafe/!svn/ver/29/src/com/itheima/mobilesafe/service/GPSService.java
+END
+AutoCleanService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MobileSafe/!svn/ver/58/src/com/itheima/mobilesafe/service/AutoCleanService.java
+END
+CallSmsSafeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/MobileSafe/!svn/ver/48/src/com/itheima/mobilesafe/service/CallSmsSafeService.java
+END
+ModifyOffset.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MobileSafe/!svn/ver/29/src/com/itheima/mobilesafe/service/ModifyOffset.java
+END
